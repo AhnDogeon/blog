@@ -1,6 +1,0 @@
-[submodule "themes/LoveIt"]
-	path = themes/LoveIt
-	url = https://github.com/dillonzq/LoveIt.git
-[submodule "ahndogeon.github.io"]
-	path = ahndogeon.github.io
-	url = https://github.com/ahndogeon/ahndogeon.github.io

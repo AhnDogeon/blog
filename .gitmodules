@@ -4,3 +4,7 @@
 [submodule "ahndogeon.github.io"]
 	path = ahndogeon.github.io
 	url = https://github.com/ahndogeon/ahndogeon.github.io
+[submodule "public"]
+	path = public
+	url = https://github.com/AhnDogeon/AhnDogeon.github.io
+	branch = main

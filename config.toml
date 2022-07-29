@@ -361,7 +361,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
       # URL of avatar shown in home page
       avatarURL = "/images/profile2.jpeg"
       # title shown in home page (HTML format is supported)
-      title = "Leoo"
+      title = "Dogeon"
       # subtitle shown in home page
       subtitle = "I am Developer 🐋"
       # whether to use typeit animation for subtitle

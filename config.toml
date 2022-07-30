@@ -4,7 +4,7 @@ theme = "LoveIt"
 summaryLength=500
 
 # website title
-title = "Kid"
+title = "DG's Blog"
 # whether to use robots.txt
 enableRobotsTXT = true
 # whether to use git commit log

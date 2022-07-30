@@ -1,37 +1,50 @@
-#!/bin/bash
+#!/bin/sh
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+# If a command fails then the deploy stops
+set -e
+printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
-# Build the project.
-# hugo -t <여러분의 테마>
-hugo -t LoveIt
+printf "\033[0;32mBuild the project.\033[0m\n"
+hugo -D
+# hugo -t timeline # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-# Go To Public folder, sub module commit
+
+printf "\033[0;32m  Go To Public folder \033[0m\n"
 cd public
-# Add changes to git.
+
+
+printf "\033[0;32m  Setting for submodule commit \033[0m\n"
+git config --local user.name "ahndogeon"
+git config --local user.email "qltiqlti@gmail.com"
+git submodule update --init --recursive
+
+
+printf "\033[0;32m  Add changes to git. \033[0m\n"
 git add .
 
-# Commit changes.
-msg="rebuilding site `date`"
-if [ $# -eq 1 ]
-  then msg="$1"
+printf "\033[0;32m  Commit changes.. \033[0m\n"
+msg="rebuilding site $(date)"
+if [ -n "$*" ]; then
+	msg="$*"
 fi
 git commit -m "$msg"
 
-# Push source and build repos.
+printf "\033[0;32m  Push blog(presentation) source and build repos. \033[0m\n"
 git push origin main
 
-# Come Back up to the Project Root
+
+printf "\033[0;32m  Come Back up to the Project Root \033[0m\n"
 cd ..
+echo $pwd
 
-
-# blog 저장소 Commit & Push
+printf "\033[0;32m  root repository Commit & Push. \033[0m\n"
 git add .
 
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
+
 git commit -m "$msg"
 
 git push origin main

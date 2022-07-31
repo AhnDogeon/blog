@@ -44,7 +44,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
     mobileMode = "auto"
     [params.header.title]
       # URL of the LOGO
-      # logo = "/images/profile2.jpeg"
+      # logo = "/images/profile.png"
       # title name
       name = " DG's Blog "
       # you can add extra information before the name (HTML format is supported), such as icons

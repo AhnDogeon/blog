@@ -9,7 +9,7 @@ draft: false
 tags: ["Markdown", "HTML"]
 categories: ["Markdown"]
 lightgallery: true
-featuredImage: "/images/featured-image.jpeg"
+featuredImage: "/images/first_post.png"
 
 ---
 

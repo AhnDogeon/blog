@@ -226,7 +226,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
     # Page SEO config
     [params.page.seo]
       # image URL
-      images = ["/images/profile2.jpeg"]
+      images = ["/images/profile.png"]
       # Publisher info
       [params.page.seo.publisher]
         name = "Kid"
@@ -359,7 +359,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/profile2.jpeg"
+      avatarURL = "/images/profile.png"
       # title shown in home page (HTML format is supported)
       title = "Dogeon"
       # subtitle shown in home page

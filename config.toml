@@ -486,13 +486,11 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
   [markup.highlight]
     codeFences = true
     guessSyntax = true
-    lineNoStart = 1
     lineNos = true
     lineNumbersInTable = true
     style = "monokai"
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
-    tabwidth = 4
     
   # Goldmark is from Hugo 0.60 the default library used for Markdown
   [markup.goldmark]

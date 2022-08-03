@@ -26,6 +26,8 @@ featuredImage: "/images/make_blog.jpeg"
 
 
 
+
+
 ## 1. 환경설정
 
 - ### Hugo 설치

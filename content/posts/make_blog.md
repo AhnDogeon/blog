@@ -9,7 +9,7 @@ draft: false
 tags: ["Web", "HUGO"]
 categories: ["dev"]
 lightgallery: true
-featuredImage: "/images/first_post.png"
+featuredImage: "/images/make_blog.jpeg"
 
 ---
 

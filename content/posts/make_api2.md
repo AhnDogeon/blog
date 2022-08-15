@@ -1,7 +1,7 @@
 ---
 title: "API 서버 구축기 2탄"
-date: 2022-08-015T10:40:14+09:00
-lastmod: 2022-08-015T10:40:14+09:00
+date: 2022-08-15T10:40:14+09:00
+lastmod: 2022-08-15T10:40:14+09:00
 draft: false
 author: "AhnDogeon"
 authorLink: "https://github.com/ahndogeon"
